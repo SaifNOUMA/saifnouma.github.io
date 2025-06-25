@@ -15,8 +15,12 @@ I am a fourth-year Ph.D Candidate in Computer Science at [Bellini College of AI,
 <h2>📰 News</h2>
 
 <div style="display: flex; gap: 1em;">
+  <div style="min-width: 100px;"><strong>Jun. ’25</strong></div>
+  <div>One paper got accepted at Elseivier Internet of Things.</div>
+</div>
+<div style="display: flex; gap: 1em;">
   <div style="min-width: 100px;"><strong>May. ’24</strong></div>
-  <div>Reviewer at ACM TIFS.</div>
+  <div>Reviewer at IEEE TIFS.</div>
 </div>
 <div style="display: flex; gap: 1em;">
   <div style="min-width: 100px;"><strong>Dec. ’23</strong></div>
@@ -54,8 +58,7 @@ I am a fourth-year Ph.D Candidate in Computer Science at [Bellini College of AI,
 
 ---
 
-
-<div align="center">
+<div align="center" style="position: absolute; left: -9999px; top: 0;">
   <script type="text/javascript" id="mapmyvisitors" 
     src="//mapmyvisitors.com/map.js?d=wj_Nm-gcXFCKCVs7zVjtlpkV-rFP5T6FQOz4TJkDqYQ&cl=ffffff&w=300&h=200">
   </script>
