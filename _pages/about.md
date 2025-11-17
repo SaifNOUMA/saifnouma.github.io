@@ -10,18 +10,53 @@ redirect_from:
 <h2 style="margin-top: 0;">👤 About </h2>
 
 <p style="text-align: justify;">
-  Saif E. Nouma is a Ph.D. candidate in Computer Science at the Bellini College of AI, Computing, and Cybersecurity, University of South Florida (USF). 
-  He earned his B.Eng. in Computer Science from École Polytechnique de Tunisie in 2020 and has one year of experience as a back-end software engineer. 
-  His research aims to enhance the performance and security of computer systems, particularly within the Internet of Things (IoT), through distributed 
-  and autonomous machine learning designs and secure cryptographic protocols. He has contributed to more than ten scholarly and technical works, including 
-  peer-reviewed articles in leading conferences and journals, as well as two U.S. patents.
+  I am a fith-year PhD candidate in Computer Science at the Bellini College of AI, Computing, and Cybersecurity, University of South Florida (USF). I am a member of Applied Cryptography Research Laboratory supervised by Dr. Attila A. Yavuz. I received my BS in Computer Science from the University of Carthage in 2020 and my AS in Mathematics from the University of Monastir.  I have one-year experience in software engineering before joining USF.
 </p>
 
-Interests:
-Applied Cryptography,
-Network Security,
-Internet of Things,
-Machine Learning
+<p style="text-align: justify;">
+  My research aims to enhance the performance and security of computer systems, particularly within the Internet of Things (IoT), through secure cryptographic protocols and distributed designs. I contributed to more than ten scholarly and technical works, including peer-reviewed articles in leading conferences and journals, as well as two U.S. patents.
+</p>
+
+
+<div style="display: flex; justify-content: space-between; gap: 40px;">
+<div style="flex: 1;">
+<h2> Interests</h2>
+<ul style="list-style-type: none; padding-left: 0;">
+<li>🔬 Applied Cryptography</li>
+<li>🔬 Network Security</li>
+<li>🔬 Internet of Things</li>
+<li>🔬 Machine Learning</li>
+</ul>
+</div>
+<div style="flex: 1;">
+<h2> Education</h2>
+<ul style="list-style-type: none; padding-left: 0;">
+<li style="display: flex; align-items: flex-start; margin-bottom: 10px;">
+<span style="font-size: 1.2em; margin-right: 8px;">🎓</span>
+<div>
+<strong>PhD in Computer Science</strong>, 2026<br>
+<span style="color: gray;">University of South Florida</span>
+</div>
+</li>
+<li style="display: flex; align-items: flex-start; margin-bottom: 10px;">
+<span style="font-size: 1.2em; margin-right: 8px;">🎓</span>
+<div>
+<strong>BS in Computer Science</strong>, 2020<br>
+<span style="color: gray;">University of Carthage</span>
+</div>
+</li>
+<li style="display: flex; align-items: flex-start;">
+<span style="font-size: 1.2em; margin-right: 8px;">🎓</span>
+<div>
+<strong>AS in Mathematics</strong>, 2017<br>
+<span style="color: gray;">University of Monastir</span>
+</div>
+</li>
+</ul>
+</div>
+</div>
+
+
 
 <!-- Skills: Python, C, C++, Software Development -->
 
