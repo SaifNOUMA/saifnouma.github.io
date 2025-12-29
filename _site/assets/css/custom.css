@@ -1,0 +1,48 @@
+/* Global font size reduction (makes everything ~15-20% smaller) */
+html {
+    font-size: 90%;  /* Adjust this value: 85% for even smaller, 95% for subtle */
+}
+
+/* Or target body only */
+body {
+    font-size: 0.95rem;  /* Base font smaller */
+    line-height: 1.5;    /* Slightly tighter line spacing */
+}
+
+/* Reduce headings to show more vertical content */
+h1 { font-size: 2.2rem !important; }     /* Your name in header */
+h2 { font-size: 1.8rem !important; }     /* Section titles */
+h3 { font-size: 1.4rem !important; }
+h4, h5, h6 { font-size: 1.2rem !important; }
+
+/* Tighter spacing between sections */
+section {
+    margin-bottom: 2rem !important;  /* Reduce from default larger value */
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+
+/* Reduce padding in containers for denser layout */
+.container, .container-lg, .container-md, .container-sm {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+
+/* Optional: Make lists more compact */
+ul, ol {
+    margin-bottom: 1rem !important;
+}
+li {
+    margin-bottom: 0.4rem !important;
+}
+
+/* If news items feel too spaced out */
+.news li {
+    margin-bottom: 0.8rem !important;
+}
+
+body {
+    zoom: 90%;        /* Chrome/Edge/Firefox support */
+    -moz-transform: scale(0.90);  /* Firefox older */
+    transform-origin: top left;
+}

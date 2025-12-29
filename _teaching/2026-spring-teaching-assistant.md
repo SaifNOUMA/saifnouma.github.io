@@ -1,9 +1,9 @@
 ---
 title: "Teaching Assistant"
 collection: teaching
-type: "COP4538 - IT Data Structure"
+type: "CIS 4212/6214: Privacy-Preserving and Trustworthy Cyber-Infrastructures"
 permalink: /teaching/2014-spring-teaching-1
 venue: "University of South Florida, Bellini College of AI, Cybersecurity and Computing"
-date: 2022-01-01
+date: 2026-01-01
 location: "FL, USA"
 ---
