@@ -72,7 +72,7 @@ I am a fourth-year Ph.D Candidate in Computer Science at [Bellini College of AI,
 
   <div style="display: flex; gap: 1em;">
     <div style="min-width: 100px;"><strong>Dec. ’25</strong></div>
-    <div>Our paper <em>“Lightweight and Resilient Signatures for Cloud-Assisted Embedded IoT Systems”</em> was accepted at the <a href="https://onlinelibrary.wiley.com/journal/24756725" target="_blank">Wiley Security and Privacy 2025</a>.</div>
+    <div>Our paper <em>“Lightweight and Resilient Signatures for Cloud-Assisted Embedded IoT Systems”</em> was accepted at <a href="https://onlinelibrary.wiley.com/journal/24756725" target="_blank">Wiley Security & Privacy</a>.</div>
   </div>
 
   <div style="display: flex; gap: 1em;">
