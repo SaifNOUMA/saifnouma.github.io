@@ -33,11 +33,6 @@ $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
-::selection {
-background-color: var(--global-selection-bg-color);
-color: var(--global-selection-text-color);
-}
-
 /* Dark theme for the site */
 html[data-theme="dark"] {
     --global-base-color                 : #{$background};
@@ -56,9 +51,4 @@ html[data-theme="dark"] {
     --global-text-color                 : #{$text};
     --global-text-color-light           : #{$light-gray};
     --global-thead-color                : #{$background-lighter};
-}
-
-::-moz-selection {
-    background-color: var(--global-selection-bg-color);
-    color: var(--global-selection-text-color);
 }
