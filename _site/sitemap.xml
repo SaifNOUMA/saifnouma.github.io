@@ -67,10 +67,6 @@
 <lastmod>2024-03-01T00:00:00+00:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/publications/journal-2025-03-01-tiot-poslo/</loc>
-<lastmod>2025-03-01T00:00:00+00:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/publications/journal-2025-07-01-iot-mumhors/</loc>
 <lastmod>2025-07-01T00:00:00+00:00</lastmod>
 </url>
@@ -93,6 +89,10 @@
 <url>
 <loc>http://localhost:4000/publications/journal-2025-12-01-tiot-diamond/</loc>
 <lastmod>2025-12-01T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/publications/journal-2025-03-01-tiot-poslo/</loc>
+<lastmod>2026-01-20T00:00:00+00:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/talks/2012-03-01-talk-1</loc>
@@ -234,11 +234,11 @@
 </url>
 <url>
 <loc>http://localhost:4000/files/2025_tiot_poslo.pdf</loc>
-<lastmod>2025-06-16T01:39:26+00:00</lastmod>
+<lastmod>2026-01-20T16:41:04+00:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/files/cv.pdf</loc>
-<lastmod>2026-01-13T16:34:49+00:00</lastmod>
+<lastmod>2026-01-21T15:06:22+00:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/talkmap/map.html</loc>
