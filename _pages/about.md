@@ -12,7 +12,7 @@ redirect_from:
 
 <!-- <p style="text-align: justify;"> -->
 <p style="text-align: justify; margin-bottom: rem;">
-  I am a fith-year PhD candidate in Computer Science at the Bellini College of AI, Computing, and Cybersecurity, University of South Florida (USF). I am a member of Applied Cryptography Research Laboratory supervised by Dr. Attila A. Yavuz. I received my BS in Computer Science from the University of Carthage in 2020 and my AS in Mathematics from the University of Monastir.  I have one-year experience in software engineering before joining USF.
+  I recently defended my doctoral dissertation in Computer Science at the Bellini College of AI, Computing, and Cybersecurity, University of South Florida (USF). I am a member of Applied Cryptography Research Laboratory supervised by Dr. Attila A. Yavuz. I received my BS in Computer Science from the University of Carthage in 2020 and my AS in Mathematics from the University of Monastir.  I have one-year experience in software engineering before joining USF.
 </p>
 
 <!-- <p style="text-align: justify;"> -->
@@ -59,11 +59,6 @@ redirect_from:
 </div>
 </div>
 
-<!-- Skills: Python, C, C++, Software Development -->
-
-<!-- 👋 Hello There, I'm Saif!
-======
-I am a fourth-year Ph.D Candidate in Computer Science at [Bellini College of AI, Cybersecurity and Computing](https://www.usf.edu/ai-cybersecurity-computing/), at [University of South Florida](https://www.usf.edu/). My research interests broadly lie in the area of applied cryptography, network security, and machine learning. My research seeks to improve the security of resource-constrained IoT devices through novel designs, formal security proofs, and full-fledged implementations. -->
 
 <!-- <h2>📰 News</h2> -->
 <h2 style="margin: 0 0 1rem 0;">📰 News</h2>

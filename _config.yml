@@ -23,9 +23,9 @@ repository               : "SaifNOUMA/saifnouma.github.io"
 author:
   # Biographic information
   avatar           : "SEN.png"
-  name             : "Saif Eddine Nouma"
+  name             : "Saif Eddine Nouma, Ph.D."
   pronouns         : # example: "she/her"  
-  bio              : "Ph.D Candidate"
+  bio              : ""
   location         : "Tampa, FL, USA"
   employer         : "University of South Florida"
   uri              : # URL
