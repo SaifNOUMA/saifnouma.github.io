@@ -111,6 +111,10 @@
 <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
+<!-- Modern enhancements -->
+<link rel="stylesheet" href="/assets/css/modern.css"/>
+<script src="/assets/js/modern.js" defer></script>
+
 <!-- end custom head snippets -->
 
   </head>
@@ -131,17 +135,21 @@
           <li class="masthead__menu-item masthead__menu-item--lg persist"><a href="http://localhost:4000/">Saif E. Nouma</a></li>
           
             
+            <li class="masthead__menu-item"><a href="http://localhost:4000/research/">Research</a></li>
+          
+            
             <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
           
             
             <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/files/cv.pdf">CV</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/talks/">Talks</a></li>
           
-          <li id="theme-toggle" class="masthead__menu-item persist tail">
-            <a><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
-          </li>
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/cv/">CV</a></li>
+          
+          <!-- theme toggle moved to bottom-right button in modern.js -->
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
@@ -166,18 +174,18 @@
 
   <div class="author__avatar">
     
-    	<img src="http://localhost:4000/images/SEN.png" class="author__avatar" alt="Saif Eddine Nouma, Ph.D.">
+    	<img src="http://localhost:4000/images/SEN.png" class="author__avatar" alt="Saif Eddine Nouma">
     
   </div>
 
   <div class="author__content">
-    <h3 class="author__name">Saif Eddine Nouma, Ph.D.</h3>
+    <h3 class="author__name">Saif Eddine Nouma</h3>
     
     <p class="author__bio"></p>
   </div>
 
   <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
+    <!-- links button removed -->
     <ul class="author__urls social-icons">
       <!-- Font Awesome icons / Biographic information  -->
       
@@ -267,14 +275,14 @@
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="http://localhost:4000/talks/2014-03-01-talk-3" rel="permalink">Conference Proceeding talk 3 on Relevant Topic in Your Field
+        <a href="http://localhost:4000/talks/2026-05-01-phd-defense" rel="permalink">Ph.D. Dissertation Defense: Lightweight and Resilient Cryptographic Protocols for Internet of Things (IoT)
 </a>
       
     </h2>
     
-    <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> March 01, 2014</p>
-    <p class="archive__item-excerpt" itemprop="description">Conference proceedings talk, Testing Institute of America 2014 Annual Conference,  Los Angeles, CA, USA 
-    <p class="archive__item-excerpt" itemprop="description"><p>This is a description of your conference proceedings talk, note the different field in type. You can put anything in this field.</p>
+    <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> May 01, 2026</p>
+    <p class="archive__item-excerpt" itemprop="description">PhD Defense, University of South Florida, Bellini College of AI, Cybersecurity and Computing,  Tampa, FL, USA 
+    <p class="archive__item-excerpt" itemprop="description">
 </p>
   </article>
 </div>
@@ -291,15 +299,14 @@
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="http://localhost:4000/talks/2014-02-01-talk-2" rel="permalink">Talk 2 on Relevant Topic in Your Field
+        <a href="http://localhost:4000/talks/2025-10-01-milcom" rel="permalink">Lightweight and Breach-Resilient Authenticated Encryption Framework for Internet of Things
 </a>
       
     </h2>
     
-    <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> February 01, 2014</p>
-    <p class="archive__item-excerpt" itemprop="description">Talk, London School of Testing,  London, UK 
-    <p class="archive__item-excerpt" itemprop="description"><p><a href="http://example2.com">More information here</a></p>
-
+    <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> October 01, 2025</p>
+    <p class="archive__item-excerpt" itemprop="description">Conference Paper Presentation, 43rd IEEE Military Communications Conference (IEEE MILCOM),  Los Angeles, CA, USA 
+    <p class="archive__item-excerpt" itemprop="description">
 </p>
   </article>
 </div>
@@ -316,15 +323,14 @@
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="http://localhost:4000/talks/2013-03-01-tutorial-1" rel="permalink">Tutorial 1 on Relevant Topic in Your Field
+        <a href="http://localhost:4000/talks/2024-01-01-major-area" rel="permalink">Ph.D. Major Area Exam Presentation: Lightweight and Resilient Cryptographic Protocols for IoT
 </a>
       
     </h2>
     
-    <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> March 01, 2013</p>
-    <p class="archive__item-excerpt" itemprop="description">Tutorial, UC-Berkeley Institute for Testing Science,  Berkeley, CA, USA 
-    <p class="archive__item-excerpt" itemprop="description"><p><a href="http://exampleurl.com">More information here</a></p>
-
+    <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> January 01, 2024</p>
+    <p class="archive__item-excerpt" itemprop="description">PhD Milestone, University of South Florida, Bellini College of AI, Cybersecurity and Computing,  Tampa, FL, USA 
+    <p class="archive__item-excerpt" itemprop="description">
 </p>
   </article>
 </div>
@@ -341,14 +347,38 @@
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="http://localhost:4000/talks/2012-03-01-talk-1" rel="permalink">Talk 1 on Relevant Topic in Your Field
+        <a href="http://localhost:4000/talks/2023-05-02-dsc" rel="permalink">Lightweight Digital Signatures for Internet of Things: Current and Post-Quantum Trends and Visions
 </a>
       
     </h2>
     
-    <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> March 01, 2012</p>
-    <p class="archive__item-excerpt" itemprop="description">Talk, UC San Francisco, Department of Testing,  San Francisco, CA, USA 
-    <p class="archive__item-excerpt" itemprop="description"><p>This is a description of your talk, which is a markdown file that can be all markdown-ified like any other post. Yay markdown!</p>
+    <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> May 02, 2023</p>
+    <p class="archive__item-excerpt" itemprop="description">Conference Paper Presentation, 6th IEEE Conference on Dependable and Secure Computing (IEEE DSC),  Tampa, FL, USA 
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+  </article>
+</div>
+
+
+  
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/talks/2023-05-01-iotdi" rel="permalink">Practical Cryptographic Forensic Tools for Lightweight Internet of Things and Cold Storage Systems
+</a>
+      
+    </h2>
+    
+    <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> May 01, 2023</p>
+    <p class="archive__item-excerpt" itemprop="description">Conference Paper Presentation, 8th ACM/IEEE Conference on Internet of Things Design and Implementation (ACM/IEEE IoTDI),  San Antonio, TX, USA 
+    <p class="archive__item-excerpt" itemprop="description">
 </p>
   </article>
 </div>

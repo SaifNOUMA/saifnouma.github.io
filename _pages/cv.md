@@ -1,64 +1,43 @@
 ---
-layout: archive
-title: "CV"
+layout: single
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+<div class="cv-page">
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+  <div class="cv-toolbar">
+    <span class="cv-toolbar-label">Saif Eddine Nouma — CV</span>
+    <div class="cv-toolbar-actions">
+      <a href="/files/cv.pdf" download="Saif_Nouma_CV.pdf" class="cv-btn cv-btn-dl">
+        &#8595;&nbsp;Download PDF
+      </a>
+      <button class="cv-btn cv-btn-print" id="cv-print-btn">
+        &#128438;&nbsp;Print
+      </button>
+    </div>
+  </div>
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+  <div class="cv-frame-wrap">
+    <iframe
+      id="cv-frame"
+      src="/files/cv.pdf#view=FitH&pagemode=none"
+      title="Curriculum Vitae"
+    ></iframe>
+  </div>
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+</div>
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+<script>
+document.getElementById('cv-print-btn').addEventListener('click', function () {
+  var w = window.open('/files/cv.pdf');
+  if (w) {
+    w.addEventListener('load', function () {
+      setTimeout(function () { w.print(); }, 400);
+    });
+  }
+});
+</script>
